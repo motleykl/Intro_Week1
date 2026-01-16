@@ -65,10 +65,13 @@ logout = log out of terminal
   path=route to files
 	- Absolute paths
 		- All absolute paths begin at the root- start with /
+    	- full address ex. 123 main st
 	- Relative paths
 		- Don't start with /
 		- Working directories
 		- Shortcuts for current and parent directories
+    	- relative to where are rn, this is path you take, only works if starting in that spot
+       	-shorter, but depends on starting in particular location
 	- Hidden files and folders
 		- Names begin with `.`
 		- Usually used for configuration files
