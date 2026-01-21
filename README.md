@@ -13,6 +13,10 @@ Using Terminal a lot this semester
 	-download gitbash
 
 ~ = home directory
+[username@mike ~]$ = **command prompt**
+username computer logged into directory
+
+working directory=whatever window currently working on - need to be aware of where we are
 
 on terminal write ctrl +c to make new line 
 cys-help@loni.org helps with login stuff
@@ -62,9 +66,10 @@ logout = log out of terminal
  	- The Unix root (/)
    		- The very base of the filesystem
        	- single folder that holds everything (bottom container)
+       	- JUST a slash
   path=route to files
 	- Absolute paths
-		- All absolute paths begin at the root- start with /
+		- All absolute paths begin at the root- **start with /**
     	- full address ex. 123 main st
 	- Relative paths
 		- Don't start with /
@@ -80,6 +85,11 @@ logout = log out of terminal
 
 ```
 Assignment 1
+
+
+pwd = print working directory
+	- use to redirect self to where are
+	- shows paths
 
 (1) Sign up for an account on GitHub and send your username to me.
 (2) Apply for an LSU HPC account:
