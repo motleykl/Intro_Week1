@@ -91,6 +91,48 @@ pwd = print working directory
 	- use to redirect self to where are
 	- shows paths
 
+cd = change directories
+	type cd [space] where we want it to go
+			(extra info after command=argument) always specific to command
+	if type first letter then click tab to get it to fill in full file name
+	double tap tab to show all folders with that name
+	can be as specific as want
+		-if know full path type full path folder/folder/folder
+		- can type /folder/folder to make sure it always works (absolute)
+
+cntrl c cancels out
+
+3 ways to get to home directory
+	cd
+	cd + path
+	cs + ~
+
+ls = list
+	shows what is in
+	can also use ls ./folder
+
+records all previous commands - use up and down arrows
+
+NEVER use spaces in names of files/folders
+	-camel case = capitalize first letter in file name
+	-underscores
+
+to create empty text file = touch FileName.txt or FileName.md if know it will eventually be a markdown file
+	-doesnt pull something up right away, can check using ls
+	-only in HPC; can see on hpc website (ondemand.mike one)
+	-should include file extension to be helpful
+
+folders = directories
+
+mkdir = make directory
+	mkdir name
+
+cd .. = takes to previous (parent) directory you were in; "move down in file system"- move backwards along path towards root; 1 down
+	- can string together ../../../.. can do as many as want bc will stop at root
+	-relative path
+
+. = shortcut to where am right now; look where I am right now in particular 
+
 (1) Sign up for an account on GitHub and send your username to me.
 (2) Apply for an LSU HPC account:
     https://accounts.hpc.lsu.edu/login_request.php
