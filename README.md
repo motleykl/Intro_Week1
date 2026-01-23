@@ -110,6 +110,21 @@ cntrl c cancels out
 ls = list
 	shows what is in
 	can also use ls ./folder
+	ls -a
+		-a = flag (optional settings)
+		-a shows "hidden files/folders" [they all start with a period]
+			.bashprofile = text file, helps modify command line etc (ex: customize how command prompt looks)
+			.bash_history = stores all of your history
+		ls -l = long list; gives list but with more info
+			human readable units = ls -lh (lets you check permissions) 
+		can put the flags together
+		on the left hand side = 10 unit codes, start=tells you what kind of file;
+			the next 9 give different permissions read (r), write(w), run the code(x) repeated x3; 1st set=creator, 2nd set=anyone in users group, 3rd=anyone on particular user system
+		
+commands have a lot of options, man = manual pages, so do man [command] to help give you the flag options
+	case sensitive, maybe 2 dashes when longer commands 
+
+
 
 records all previous commands - use up and down arrows
 
