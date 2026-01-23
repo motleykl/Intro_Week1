@@ -83,8 +83,7 @@ logout = log out of terminal
 
 - [Practical Computing Tips](https://github.com/FoundCompBio-Spr26/Intro_Week1/blob/main/ComputingTips.md)
 
-```
-Assignment 1
+
 
 
 pwd = print working directory
@@ -147,7 +146,8 @@ cd .. = takes to previous (parent) directory you were in; "move down in file sys
 	-relative path
 
 . = shortcut to where am right now; look where I am right now in particular 
-
+```
+Assignment 1
 (1) Sign up for an account on GitHub and send your username to me.
 (2) Apply for an LSU HPC account:
     https://accounts.hpc.lsu.edu/login_request.php
